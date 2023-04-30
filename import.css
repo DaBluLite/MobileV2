@@ -565,3 +565,18 @@
     background: none;
     border-width: 0;
 }
+.pill-2RsI5Q, .pill-L_aLMQ, .pill-1NRFie, .pill-22lZHo, #app-mount .pill-2RsI5Q *, #app-mount .pill-L_aLMQ *, #app-mount .pill-1NRFie *, #app-mount .pill-22lZHo * {
+    transition: none !important;
+    display: flex !important;
+}
+.hover-3m7-WT + div > .pill-2RsI5Q, #app-mount .pill-2RsI5Q:has(+ div .wrapper-3kah-n.selected-1Drb7Z), #app-mount .pill-L_aLMQ:has(+ div .wrapper-3kah-n.selected-1Drb7Z), #app-mount .pill-1NRFie:has(+ div .wrapper-3kah-n.selected-1Drb7Z), #app-mount .pill-22lZHo:has(+ div .wrapper-3kah-n.selected-1Drb7Z) {
+    opacity: 0;
+}
+.item-2LIpTv {
+    margin-top: 5px;
+    margin-left: 4px;
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--brand-experiment);
+}
