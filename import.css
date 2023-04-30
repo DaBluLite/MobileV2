@@ -180,18 +180,8 @@
     border-radius: 16px 16px 0 0;
     overflow: hidden;
 }
-.scroller-1ox3I2 {
-    background-color: var(--background-tertiary);
-    border-radius: 16px 16px 0 0;
-}
-.scroller-1ox3I2 > .content-yjf30S > div:first-child {
-    display: none;
-}
 .header-3OsQeK {
     transition: .2s;
-}
-.hasBanner-2IrYih > .header-3OsQeK {
-    margin-bottom: 71px;
 }
 .container-2giAcK {
     margin-top: 0;
