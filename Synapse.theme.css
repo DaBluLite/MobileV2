@@ -8,3 +8,9 @@
  */
 
 @import url(https://dablulite.github.io/SynapseBD/import.css);
+
+:root {
+    --synapse-background-color: var(--synapse-background-color-inner);
+    --synapse-background-image: none;
+}
+
