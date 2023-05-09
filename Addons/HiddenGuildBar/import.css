@@ -1,0 +1,6 @@
+.guilds-2JjMmN {
+    margin-left: -72px;
+}
+.guilds-2JjMmN:hover, .container-1eFtFS:has(.sidebar-1tnWFu:hover) .guilds-2JjMmN {
+    margin-left: 0;
+}
