@@ -1315,3 +1315,13 @@
     border-radius: 0 !important;
     box-shadow: none !important;
 }
+#account {
+    width: calc(100% - 30px);
+    margin: 15px;
+}
+.submenuPaddingContainer-QgnL1r {
+    padding: 0 !important;
+}
+.submenu-3ycVEH {
+    margin: 0 -4px;
+}
