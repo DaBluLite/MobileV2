@@ -1,0 +1,15 @@
+/**
+ * @name MobileV2
+ * @description A Discord theme based on the 2023 Discord Mobile TabsV2 Layout
+ * @author DaBluLite#7409
+ * @authorId 582170007505731594
+ * @version 1.0.0
+ * @invite ZfPH6SDkMW
+ */
+
+:root {
+    --mobilev2-background-color: var(--mobilev2-background-color-inner);
+    --mobilev2-background-image: none;
+}
+
+@import url(https://dablulite.github.com/MobileV2/MobileV2.theme.css);
