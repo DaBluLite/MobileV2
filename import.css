@@ -1325,3 +1325,50 @@
 .submenu-3ycVEH {
     margin: 0 -4px;
 }
+.homeIcon-r0w4ny {
+    height: 28px;
+}
+.homeIcon-r0w4ny path {
+    d: path("M7.516 16.7C7.8784 16.7 8.1694 16.3791 8.1838 16.0171 8.1906 15.8462 8.2 15.674 8.2 15.5 8.2 10.1984 11.7683 5.9 17.3338 5.9 19.3811 5.9 21.3254 6.6288 22.9281 7.6747 23.3211 7.9312 23.8106 7.6966 23.8014 7.2274 23.8005 7.1825 23.8 7.1398 23.8 7.1 23.8 1.8068 19.0527-2.5 13.219-2.5 7.3854-2.5 2.638 1.8068 2.638 7.1 2.638 8.59 3.0076 10.0228 3.7183 11.3276 3.9932 11.8323 3.9466 12.4664 3.5445 12.8769L1.7978 14.6604C1.0539 15.4198 1.592 16.7 2.6551 16.7H7.516ZM25.0161 18.9078C24.8039 18.5696 24.7806 18.1502 24.909 17.7722 25.1568 17.0422 25.2845 16.2741 25.2845 15.5 25.2845 11.5292 21.9897 8.3 17.9399 8.3 13.8903 8.3 10.5953 11.5292 10.5953 15.5 10.5953 19.4708 13.8903 22.7 17.9399 22.7H25.2258C26.1693 22.7 26.7437 21.6614 26.2424 20.8622L25.0161 18.9078Z");
+}
+.theme-dark .theme-light .root-1CAIjD {
+    background-color: var(--primary-600);
+}
+.theme-dark .theme-light .root-1CAIjD .defaultColor-1EVLSt,
+.theme-dark #app-mount .theme-light .root-1CAIjD .footerSeparator-3U8YsT,
+.theme-dark .theme-light .root-1CAIjD .sampleLink-5BWNy9 {
+    color: var(--white-500);
+}
+.theme-dark .theme-light .root-1CAIjD .subtitle-3m-md1,
+.theme-dark .theme-light .root-1CAIjD .optionHeader-27AHfD,
+.theme-dark .theme-light .root-1CAIjD .subtitle-1cc8Nz,
+.theme-dark .theme-light .root-1CAIjD .skip-2hTIXL,
+.theme-dark .theme-light .root-1CAIjD .subtitle-bIoUVX,
+.theme-dark .theme-light .root-1CAIjD .guidelines-FvqqF2,
+.theme-dark .theme-light .root-1CAIjD .h5-2feg8J,
+.theme-dark .theme-light .root-1CAIjD .label-7akf7-,
+.theme-dark .theme-light .root-1CAIjD .legend-3BgtI3,
+.theme-dark .theme-light .root-1CAIjD .text-sm-normal-AEQz4v {
+    color: var(--white-600) !important;
+}
+.theme-dark .theme-light .root-1CAIjD .container-x8Y1ix,
+.theme-dark .theme-light .root-1CAIjD .rowContainer-3t7486 {
+    background-color: var(--primary-630);
+}
+.theme-dark .theme-light .root-1CAIjD .container-x8Y1ix:hover,
+.theme-dark .theme-light .root-1CAIjD .rowContainer-3t7486:hover {
+    background-color: var(--primary-660);
+}
+.theme-dark #app-mount .theme-light .root-1CAIjD .footerSeparator-3U8YsT:has(.footerButton-24QPis) .footerButton-24QPis {
+    background-color: var(--primary-630);
+}
+.theme-dark #app-mount .theme-light .root-1CAIjD .footerSeparator-3U8YsT:has(.footerButton-24QPis) .footerButton-24QPis:hover {
+    background-color: var(--primary-660);
+}
+.theme-light #app-mount .theme-light .root-1CAIjD .footerSeparator-3U8YsT:has(.footerButton-24QPis) .footerButton-24QPis {
+    color: var(--black-500);
+}
+.theme-dark #app-mount .theme-light .root-1CAIjD .footerSeparator-3U8YsT:has(.footerButton-24QPis) {
+    background-color: var(--primary-600);
+    box-shadow: none;
+}
