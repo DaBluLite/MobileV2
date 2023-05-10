@@ -1,6 +1,6 @@
-<h1 background="#ff0000">Omnibar Collapse for Cyan</h1>
+<h1 background="#ff0000">Hidden Guild Bar for MobileV2</h1>
 
-### Collapses the Omnibar and reduces its opacity, as well as adding some other effects.
+### Collapses the Server Bar and reveals it on hover.
 
 ### Importing:
 ```css
