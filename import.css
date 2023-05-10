@@ -1372,3 +1372,29 @@
     background-color: var(--primary-600);
     box-shadow: none;
 }
+.mainContentWithChannelEmoji-3a7jev {
+    padding: 6px 0;
+}
+.mainContentWithChannelEmoji-3a7jev .iconContainer-21RCa3 {
+    background-color: transparent;
+}
+.mainContentWithChannelEmoji-3a7jev .iconContainer-21RCa3 svg {
+    color: var(--channel-icon) !important;
+}
+.channelEmojiLeftOfIcon-2qUYhE {
+    margin-left: 0;
+}
+.channelEmoji-NJOZuV {
+    max-height: 32px;
+    max-width: 32px;
+    width: 32px;
+    backdrop-filter: brightness(1.5);
+    height: 32px;
+}
+.channelEmoji-NJOZuV > img {
+    width: 20px;
+    height: 20px;
+}
+.channelEmojiRightOfIcon-2GcYRh {
+    order: -1;
+}
