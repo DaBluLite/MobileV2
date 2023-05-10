@@ -900,7 +900,14 @@
 }
 .floating-window {
     box-shadow: var(--elevation-stroke),var(--elevation-high);
-    border-radius: 8px;
+    border-radius: 16px;
+    min-width: 530px !important;
+    max-width: unset !important;
+    max-height: unset !important;
+}
+.floating-window-titlebar > .title {
+    padding: 0 16px;
+    color: var(--header-primary);
 }
 .monaco-editor .find-widget.visible {
     transform: translateY(8px) !important;
