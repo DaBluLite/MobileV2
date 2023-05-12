@@ -1399,3 +1399,11 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.typeMacOS-3V4xXE {
+    background: transparent !important;
+    background-color: var(--background-tertiary) !important;
+    right: unset;
+    left: 0;
+    padding: 0;
+    z-index: 1;
+}
