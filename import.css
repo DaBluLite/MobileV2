@@ -87,9 +87,6 @@
     background: var(--mobilev2-background-image);
     transition: .2s;
 }
-.chat-2ZfjoI, .chatContent-3KubbW, .scrollableContainer-15eg7h {
-    background: transparent !important;
-}
 .sidebar-1tnWFu, .container-1NXEtd {
     background-color: var(--background-tertiary) !important;
     background: var(--background-tertiary);
