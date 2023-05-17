@@ -109,6 +109,7 @@
     border-radius: 12px;
     width: 280px;
     box-shadow: var(--elevation-medium);
+    overflow: hidden;
 }
 .panels-3wFtMD {
     background-color: var(--background-floating);
