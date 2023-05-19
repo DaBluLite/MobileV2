@@ -1481,3 +1481,10 @@
     border: 1px solid var(--primary-500);
     border-radius: 50px;
 }
+.children-3xh0VB {
+    width: fit-content;
+    flex-grow: 0;
+}
+.container-ZMc96U {
+    justify-content: space-between;
+}
