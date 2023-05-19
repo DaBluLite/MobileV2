@@ -1446,3 +1446,38 @@
 .titleBar-1it3bQ {
     background: transparent !important;
 }
+.navList-3uG4ub {
+    background-color: var(--background-tertiary);
+    padding: 2px;
+    gap: 2px;
+    border-radius: 4px;
+}
+.nav-1cHpYc {
+    height: 32px;
+}
+.navList-3uG4ub > button {
+    margin: 0;
+    width: calc((100%/2) - 1.5px);
+    padding: 4px;
+}
+.navList-3uG4ub > div {
+    margin: 0;
+    width: calc((100%/2) - 1.5px);
+}
+.navList-3uG4ub > div > button {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.navList-3uG4ub .betaTag-V7479T {
+    display: none;
+}
+.nav-1cHpYc + .wrapper-3u51GQ {
+    margin-top: 8px;
+}
+.nav-1cHpYc + .wrapper-3u51GQ .searchBar-2M9mRP {
+    background-color: transparent;
+    border: 1px solid var(--primary-500);
+    border-radius: 50px;
+}
