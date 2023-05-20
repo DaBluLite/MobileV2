@@ -1573,3 +1573,62 @@ div:not([class])[style="height: 243px;"]:empty {
 .content-1jQy2l {
     border-top: 1px solid var(--primary-500);
 }
+#customcss-tab {
+    width: 100%;
+    max-width: unset;
+    padding-bottom: 40px;
+    display: flex !important;
+    flex-direction: column;
+}
+#customcss-tab > #bd-editor-panel,
+#customcss-tab > #bd-editor-panel > .editor-wrapper {
+    display: flex !important;
+    flex-grow: 1;
+}
+#bd-customcss-editor {
+    display: flex;
+    height: calc(100vh - 40px - 44px - 130px);
+}
+.contentRegionShownSidebar-fHXkEg > .toolsContainer-25FL6V,
+.tools-kIrEGr {
+    width: 0;
+    margin: 0;
+    padding: 0;
+    min-width: unset;
+    display: contents;
+}
+.checkbox-1LuCGM {
+    border-width: 2px;
+    transition: .2s;
+    min-width: 16px;
+    min-height: 16px;
+    border-radius: 4px;
+}
+.checkbox-1LuCGM.checked-22NTbO {
+    border-width: 0;
+}
+.recentMentionsPopout-2bI1ZN > .header-145e10 {
+    background-color: transparent;
+    border-bottom: 1px solid var(--background-accent);
+}
+.recentMentionsPopout-2bI1ZN > .header-145e10 .topPill-2vcLsa {
+    gap: 2px;
+    padding: 2px;
+    width: 100%;
+    background-color: var(--background-tertiary);
+    border-radius: 50px;
+    height: 30px;
+}
+.recentMentionsPopout-2bI1ZN > .header-145e10 .topPill-2vcLsa > div {
+    margin: 0;
+    border-radius: 50px;
+    height: 30px;
+    width: calc((100%/2) - 1px);
+}
+.recentMentionsPopout-2bI1ZN > .header-145e10 .controls-1rku3l {
+    position: absolute;
+    right: 16px;
+    border: 1px solid var(--background-accent);
+    top: -41px;
+    border-radius: 50px;
+}
