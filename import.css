@@ -1625,10 +1625,11 @@ div:not([class])[style="height: 243px;"]:empty {
     height: 30px;
     width: calc((100%/2) - 1px);
 }
+.recentMentionsPopout-2bI1ZN > .header-145e10 .topPill-2vcLsa:has(div:nth-child(3)) > div {
+    width: calc((100%/3) - 1px);
+}
 .recentMentionsPopout-2bI1ZN > .header-145e10 .controls-1rku3l {
-    position: absolute;
-    right: 16px;
     border: 1px solid var(--background-accent);
-    top: -41px;
     border-radius: 50px;
+    margin-left: 4px;
 }
