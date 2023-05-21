@@ -103,7 +103,7 @@
     padding: 6px 12px;
 }
 .membersWrap-3NUR2t {
-    background-color: var(--background-tertiary);
+    background-color: var(--background-secondary);
     margin: 5px;
     height: calc(100% - 10px);
     border-radius: 12px;
@@ -316,13 +316,13 @@
     background: none;
 }
 .member-2gU6Ar {
-    background-color: var(--background-floating);
+    background-color: var(--background-primary);
     opacity: 1;
     border-radius: 0;
     padding: 0;
     max-width: 264px;
     width: 264px;
-    border-bottom: 1px solid var(--background-secondary-alt);
+    border-bottom: 1px solid var(--background-accent);
 }
 .members-3WRCEx {
     max-width: 280px;
@@ -332,7 +332,7 @@
     background-color: transparent !important;
 }
 .member-2gU6Ar:hover {
-    background-color: var(--background-secondary-alt);
+    background-color: var(--background-accent);
 }
 .members-3WRCEx > .member-2gU6Ar:first-of-type {
     border-radius: 14px 14px 0 0;
@@ -350,8 +350,10 @@
 }
 .member-2gU6Ar:has(+ .membersGroup-2eiWxl) {
     border-radius: 0 0 14px 14px;
+    border-bottom: none;
 }
-.membersGroup-2eiWxl + .member-2gU6Ar:has(+ .membersGroup-2eiWxl) {
+.membersGroup-2eiWxl + .member-2gU6Ar:has(+ .membersGroup-2eiWxl),
+.members-3WRCEx > .membersGroup-2eiWxl + .member-2gU6Ar:has(+ div:not([class])) {
     border-radius: 14px;
     border-bottom: none;
 }
