@@ -1635,3 +1635,7 @@ div:not([class])[style="height: 243px;"]:empty {
     border-radius: 50px;
     margin-left: 4px;
 }
+.channelName-3aS_Eg div,
+.channelName-3aS_Eg input {
+    width: fit-content;
+}
