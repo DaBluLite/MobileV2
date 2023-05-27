@@ -88,12 +88,7 @@
     transition: .2s;
 }
 .sidebar-1tnWFu, .container-1NXEtd {
-    background-color: var(--background-tertiary) !important;
-    background: var(--background-tertiary);
-}
-.contentRegion-3HkfJJ, .contentRegionScroller-2_GT_N {
-    background-color: var(--background-floating);
-    background: var(--background-floating);
+    background: var(--bg-overlay-app-frame,var(--background-floating)) !important;
 }
 .channel-1Shao0 {
     max-width: 324px;
@@ -549,6 +544,7 @@
 .guilds-2JjMmN {
     transition: .7s;
     z-index: +1;
+    background: var(--bg-overlay-app-frame,var(--background-floating)) !important;
 }
 .guilds-2JjMmN:hover, .container-1eFtFS:has(.sidebar-1tnWFu:hover) .guilds-2JjMmN {
     margin-left: 0;
@@ -593,9 +589,6 @@
 }
 .button-3bklZh:hover > svg {
     color: var(--header-primary) !important;
-}
-.sidebarRegionScroller-FXiQOh {
-    background-color: var(--background-floating);
 }
 .bottomControls-31YuPK > .horizontal-112GEH:has(.controlButton-2PMNom) {
     margin-bottom: -15px;
