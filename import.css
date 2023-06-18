@@ -88,7 +88,7 @@
     transition: .2s;
 }
 .sidebar-1tnWFu, .container-1NXEtd {
-    background: var(--bg-overlay-app-frame,var(--background-floating)) !important;
+    background: var(--bg-overlay-app-frame,var(--background-tertiary)) !important;
 }
 .channel-1Shao0 {
     max-width: 324px;
@@ -542,9 +542,8 @@
     padding: 4px;
 }
 .guilds-2JjMmN {
-    transition: .7s;
     z-index: +1;
-    background: var(--bg-overlay-app-frame,var(--background-floating)) !important;
+    background: var(--bg-overlay-app-frame,var(--background-tertiary)) !important;
 }
 .guilds-2JjMmN:hover, .container-1eFtFS:has(.sidebar-1tnWFu:hover) .guilds-2JjMmN {
     margin-left: 0;
@@ -569,20 +568,17 @@
     background-color: var(--brand-experiment);
     padding: 0;
     height: 38px;
-    transition: .2s;
 }
 .button-3bklZh > svg {
     color: var(--white-500) !important;
 }
 .button-3bklZh {
     border-radius: 50%;
-    transition: .2s;
 }
 .wrapper-2vIMkT {
     padding: 3px;
     gap: 3px;
     height: 38px;
-    transition: .2s;
 }
 .button-3bklZh:hover {
     background-color: var(--background-tertiary);
@@ -604,7 +600,6 @@
     margin: 6px;
     border-radius: 16px;
     overflow: hidden;
-    transition: .2s;
 }
 .wrapper-1gVUIN:has(.callContainer-HtHELf).fullScreen-KhZZcz {
     margin: 0;
@@ -669,7 +664,6 @@
 .menu-2TXYjN .item-5ApiZt, .side-1lrxIh .item-2GWPIy {
     border-radius: 0 !important;
     padding: 12px 16px;
-    transition: .15s;
 }
 #app-mount .menu-2TXYjN .item-5ApiZt:hover, #app-mount .menu-2TXYjN .item-5ApiZt:active, #app-mount .menu-2TXYjN .item-5ApiZt.focused-3LIdPu {
     background-color: var(--background-secondary) !important;
