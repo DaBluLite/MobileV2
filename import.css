@@ -78,14 +78,12 @@
 }
 .layers-OrUESM {
     background-color: var(--mobilev2-background-color);
-    transition: .2s;
 }
 .channelTextArea-1FufC0 {
     background-color: transparent;
 }
 .bg-1QIAus {
     background: var(--mobilev2-background-image);
-    transition: .2s;
 }
 .sidebar-1tnWFu, .container-1NXEtd {
     background: var(--bg-overlay-app-frame,var(--background-tertiary)) !important;
@@ -123,7 +121,6 @@
     width: 320px;
 }
 .panels-3wFtMD > .container-YkUktl > .flex-2S1XBF > button {
-    transition: .2s;
     width: calc(320px/4);
     justify-content: center;
     height: 53px;
@@ -146,7 +143,6 @@
     justify-content: center;
     height: 53px;
     min-width: unset;
-    transition: .2s;
     border-radius: 15px 0 0 15px;
 }
 .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW > .nameTag-sc-gpq {
@@ -255,7 +251,6 @@
     cursor: pointer !important;
     border-radius: 50%;
     position: relative;
-    transition: .2s;
 }
 .search-2Mwzzq.open-1F8u2c > .searchBar-jGtisZ {
     border-radius: 36px;
@@ -672,7 +667,6 @@
     height: 36px;
     width: 36px;
     top: 0;
-    transition: .2s;
     border-radius: 50%;
     background-color: var(--background-tertiary) !important;
     justify-content: center;
@@ -684,7 +678,6 @@
     width: calc(100% - ((36px * 3) + 18px));
 }
 .winButton-3UMjdg:hover > svg {
-    transition: .2s;
     color: var(--interactive-hover) !important;
 }
 .titleBar-1it3bQ {
@@ -774,14 +767,12 @@
     height: 20px !important;
     width: 20px !important;
     bottom: -5px;
-    transition: .2s;
 }
 .itemCard-3Etziu:hover .headerAvatar-GgCKcl {
     border-color: var(--background-accent);
 }
 .itemCard-3Etziu {
     background-color: var(--background-primary);
-    transition: .2s;
     border-radius: 20px;
     padding: 10px;
     min-height: 60px;
@@ -1002,8 +993,7 @@
     gap: 8px;
     padding: 0 8px;
     border-radius: 16px;
-    background-color: var(--background-tertiary);
-    transition: .2s;
+    background-color: var(--background-tertiary)
 }
 .activityPanel-9icbyU button.button-12Fmur:hover {
     background-color: var(--background-secondary);
@@ -1046,7 +1036,6 @@
     background-color: transparent;
     border-radius: 0;
     margin-bottom: 0;
-    transition: .15s;
 }
 .radioIconForeground-3wH3aU {
     height: 20px;
@@ -1095,7 +1084,6 @@
     padding: 16px !important;
     height: fit-content;
     background-color: var(--background-secondary);
-    transition: .15s;
 }
 #app-mount .footerSeparator-3U8YsT:has(.footerButton-24QPis) .footerButton-24QPis:hover {
     background-color: var(--background-tertiary);
@@ -1665,8 +1653,8 @@ div:not([class])[style="height: 243px;"]:empty {
 path[d="M20 10.9378H14.2199H8.06628L10.502 8.50202L9 7L4 12L9 17L10.502 15.498L8.06628 13.0622H20V10.9378Z"] {
     d: path("M 15.960876,20 17.3,18.875709 9.3390449,11.989523 l 0.8491981,-0.734458 -0.0048,0.004 L 17.25704,5.1412376 15.937529,4 C 13.982546,5.6908764 8.5243611,10.411607 6.7,11.98949 c 1.3549789,1.172718 0.033615,0.02987 9.260849,8.010477");
 }
-.backButton-bSKWLe {
-    transition: .15s;
+.backButton-bSKWLe ~ h3 {
+    pointer-events: none;
 }
 .backButton-bSKWLe::before {
     content: "";
@@ -1676,7 +1664,6 @@ path[d="M20 10.9378H14.2199H8.06628L10.502 8.50202L9 7L4 12L9 17L10.502 15.498L8
     width: 100%;
     height: 28px;
     cursor: pointer;
-    transition: .15s;
 }
 .backButton-bSKWLe:hover::before {
     background-color: var(--button-secondary-background);
