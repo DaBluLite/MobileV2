@@ -1897,3 +1897,6 @@ path[d="M20 10.9378H14.2199H8.06628L10.502 8.50202L9 7L4 12L9 17L10.502 15.498L8
 .inner-NQg18Y > .buttons-uaqb-5 > .invisible-typing-button {
     margin-top: 0;
 }
+.panels-3wFtMD > .container-YkUktl > .flex-2S1XBF:has(>button:nth-child(4)) > button {
+    width: calc(320px/5);
+}
