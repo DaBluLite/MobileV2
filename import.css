@@ -32,6 +32,12 @@
     margin: 4px;
     border-radius: 16px;
 }
+.topicsPillContainer-1LeYIf {
+    padding: 4px;
+    border-radius: 8px;
+    top: 10px;
+    background-color: var(--background-tertiary);
+}
 .pill-2RsI5Q:has(.item-2LIpTv) + div .wrapper-2PSQCG:has(.folder-241Joy.hover-3m7-WT), .wrapper-2PSQCG:has(.folder-241Joy.hover-3m7-WT) {
     box-shadow: inset 0 0 0 2px var(--brand-experiment),inset 0 0 0 4px var(--background-tertiary) !important;
 }
