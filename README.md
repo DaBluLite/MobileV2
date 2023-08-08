@@ -6,10 +6,9 @@
 
 ### MobileV2 is a port of the 2023 TabsV2 layout of the Discord Mobile app.
 
-- Get it on BetterDiscord - Coming Soon (Hopefully)
+- ~~Get it on BetterDiscord~~ - Coming Soon (Hopefully)
 - Get [Addons for MobileV2](https://github.com/DaBluLite/MobileV2/tree/master/Addons)
 - Looking to give color to MobileV2? Check out [DiscordColorways](https://github.com/DaBluLite/DiscordColorways/)
-- Have Nitro? Check out my [Nitro Theme Fix](https://github.com/DaBluLite/css-snippets/tree/master/NitroThemesFix) Snippet
 
 
 # Screenshots
