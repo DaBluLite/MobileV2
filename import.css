@@ -1934,3 +1934,7 @@ path[d="M20 10.9378H14.2199H8.06628L10.502 8.50202L9 7L4 12L9 17L10.502 15.498L8
 .pill-1NRFie {
   display: none !important;
 }
+.platform-osx .wrapper-1_HaEi {
+  margin-top: 0 !important;
+  padding-top: 32px;
+}
