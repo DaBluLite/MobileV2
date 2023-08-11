@@ -1938,3 +1938,24 @@ path[d="M20 10.9378H14.2199H8.06628L10.502 8.50202L9 7L4 12L9 17L10.502 15.498L8
   margin-top: 0 !important;
   padding-top: 32px;
 }
+.wrapper-1gVUIN:has(.callContainer-HtHELf) {
+  height: calc(100% - 12px);
+}
+.chatButton-10jXXp,
+.toolbar-3_r2xA > div > .button-ejjZWC {
+  margin: 0 4px;
+  padding: 6px;
+  background-color: var(--background-tertiary);
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  min-height: unset;
+}
+.chatButton-10jXXp {
+  right: calc(24px + (36px*3) + 16px);
+  transform: none;
+  top: 6px;
+}
+.link-1_kTxV {
+  border-radius: 16px;
+}
